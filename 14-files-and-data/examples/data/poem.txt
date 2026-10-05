@@ -1,0 +1,8 @@
+The lab is quiet after six,
+the soldering irons cool,
+and somewhere on a bench a board
+blinks patiently, a jewel.
+Tomorrow someone will return
+and find the bug they missed,
+a single wrong comparison
+that every test dismissed.
