@@ -1,0 +1,18 @@
+kind,id,name,category,price,quantity,reorder_level
+TOOL,T01,Soldering iron,Tools,210.00,1,0
+TOOL,T02,Digital multimeter,Tools,175.00,1,0
+TOOL,T03,Hot glue gun,Tools,65.00,1,0
+TOOL,T04,3D printer (Ender 3),Machines,2850.00,1,0
+TOOL,T05,Oscilloscope,Instruments,3200.00,1,0
+TOOL,T06,Cordless drill,Tools,540.00,1,0
+COMPONENT,C01,LED pack (100),Components,15.50,40,10
+COMPONENT,C02,Resistor kit,Components,45.00,25,5
+COMPONENT,C03,Jumper wires (65),Components,12.00,8,10
+COMPONENT,C04,Arduino Uno,Boards,180.00,14,5
+COMPONENT,C05,ESP32 dev board,Boards,95.00,3,5
+COMPONENT,C06,Servo motor SG90,Motors,45.00,30,8
+COMPONENT,C07,PLA filament 1 kg,Consumables,210.00,6,2
+COMPONENT,C08,Ultrasonic sensor,Sensors,25.00,abc,5
+TOOL,T07,Wire strippers,Tools
+COMPONENT,C09,Breadboard,Components,25.00,-3,5
+COMPONENT,C10,DC gear motor,Motors,38.00,22,6
