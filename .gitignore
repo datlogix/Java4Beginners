@@ -1,0 +1,26 @@
+# Compiled Java
+*.class
+out/
+bin/
+target/
+
+# Build-tool downloads (the Maven wrapper fetches these itself)
+.mvn/wrapper/maven-wrapper.jar
+
+# Files your programs create while you test them
+# (course data files live in data/ folders and are NOT ignored)
+*.log
+saves/
+output/
+
+# Editor / OS clutter
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.DS_Store
+~$*.pptx
+~$*.docx
+~$*.xlsx
