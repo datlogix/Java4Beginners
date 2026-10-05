@@ -255,4 +255,5 @@ ideas, with more typing.)
    git push
    ```
 
-Next: **[Module 15: Generics, Collections & Lambdas](../15-generics-collections-and-lambdas/README.md)**.
+Next: **[Module 15: Generics, Collections & Lambdas](../15-generics-collections-and-lambdas/README.md)**,
+or first the optional **[Module 14b: Databases with SQLite & JDBC](../14b-databases-with-sqlite-and-jdbc/README.md)**.

@@ -1,0 +1,28 @@
+/* The look of Example 13's window. JavaFX CSS is like web CSS, with -fx- in front. */
+
+.card {
+    -fx-background-color: linear-gradient(to bottom, #FFFFFF, #E8F0FA);
+    -fx-font-family: "SansSerif";
+    -fx-font-size: 15px;
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1B2F45;
+}
+
+.button {
+    -fx-background-color: #F89820;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+}
+
+.good {
+    -fx-text-fill: #1E7B3A;
+}
+
+.bad {
+    -fx-text-fill: #C0392B;
+}

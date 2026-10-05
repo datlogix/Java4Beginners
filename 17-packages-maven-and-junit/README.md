@@ -322,4 +322,4 @@ TDD exercise: the tests are written, and you make them pass.
    git push
    ```
 
-Next: **[Module 18: GUIs with Swing](../18-guis-with-swing/README.md)**.
+Next: **[Module 18: GUIs with JavaFX](../18-guis-with-javafx/README.md)**.

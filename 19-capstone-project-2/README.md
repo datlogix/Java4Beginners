@@ -3,7 +3,7 @@
 This is where Part 2 comes together: classes and objects, inheritance
 and polymorphism, interfaces, enums and records, exceptions, files,
 generics and streams, recursion, packages, Maven and JUnit, and (if you
-choose) a Swing interface, combined into **one real application**, built
+choose) a JavaFX interface, combined into **one real application**, built
 by a team, tested, documented, and tracked in Git.
 
 Capstone 1 was a game that forgot everything when it closed. Capstone 2
@@ -64,7 +64,7 @@ already in its `pom.xml`, organised into four packages:
 | `model` | The classes, their rules, and the custom exceptions | **No** |
 | `storage` | Saving and loading: JSON (with Gson), CSV import and export | **No** |
 | `analysis` | Statistics, the recursive feature, and the charts (drawn to PNG files) | **No** |
-| `ui` | The menu (and the optional Swing window) | **Yes**: the only package that talks to the user |
+| `ui` | The menu (and the optional JavaFX window) | **Yes**: the only package that talks to the user |
 
 Keeping input and output in `ui` is what makes everything else
 testable.
@@ -240,13 +240,17 @@ stretch goal for their track.**
 
 **All tracks:**
 
-1. **A Swing interface** (Module 18) as well as the console menu,
+1. **A JavaFX interface** (Module 18) as well as the console menu,
    using the **same** model, storage and analysis classes, with the
-   charts drawn live in a window. Choose which interface to start with a
-   command-line argument: `java -jar target/<app>-1.0.jar --gui`.
-2. **Command-line reports**: `java -jar target/<app>-1.0.jar report`
+   charts drawn live in the window (JavaFX's own charts). Add the
+   JavaFX dependencies and plugin from Module 18's `pom.xml`, and start
+   the window with `./mvnw javafx:run`.
+2. **SQLite storage** (the optional Module 14b) in place of, or as well
+   as, the JSON files: a repository class in `storage` that the rest of
+   the program uses exactly as it uses the JSON one.
+3. **Command-line reports**: `java -jar target/<app>-1.0.jar report`
    prints a report and exits, without the menu.
-3. **Test coverage**: add the JaCoCo plugin to the `pom.xml`, run
+4. **Test coverage**: add the JaCoCo plugin to the `pom.xml`, run
    `./mvnw test jacoco:report`, open `target/site/jacoco/index.html`,
    and reach 80% coverage of the `model`, `storage` and `analysis`
    packages.

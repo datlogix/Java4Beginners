@@ -2,8 +2,8 @@
 // Run it with:  java Ex07DrawingSquare.java
 //
 // Everything you need to change is inside draw(). The code underneath it
-// opens the window. You'll understand every line of that by Module 18;
-// for now, copy the pattern.
+// opens the window. Modules 10 and 11 explain most of it, and Appendix A
+// explains every line; for now, copy the pattern.
 
 import java.awt.*;
 import javax.swing.*;

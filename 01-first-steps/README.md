@@ -390,7 +390,8 @@ from the top.
 
 Don't worry yet about the `import` lines, `extends JPanel`, or why
 some code says `pen.` and some says `Color.`. For now, copy the pattern.
-Modules 10, 11 and 18 explain every line of it. Re-read the hook now: you
+Modules 10 and 11 explain most of it, and the optional Appendix A
+explains every line. Re-read the hook now: you
 can recognise `setColor`, `setStroke` and `drawLine`, and the frame
 around them. The `for` loop and the maths that turns a heading into
 `x` and `y` arrive in Modules 2 and 5.

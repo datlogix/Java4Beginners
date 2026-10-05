@@ -15,8 +15,9 @@ The course comes in two parts:
   build things in Java": classes and objects, inheritance and
   polymorphism, interfaces, enums and records, exceptions, files,
   generics and lambdas, recursion and algorithms, packages, Maven and
-  automated testing with JUnit, graphical user interfaces with Swing,
-  and a second, harder capstone.
+  automated testing with JUnit, graphical user interfaces with JavaFX,
+  and a second, harder capstone. An optional module on databases
+  (SQLite and JDBC) follows Module 14.
 
 Part 2 assumes Part 1 is finished. Module 10 doesn't re-explain
 anything from Modules 0–9.
@@ -93,11 +94,18 @@ Two more folders sit alongside the modules:
 | 12 | [Interfaces, Enums & Records](12-interfaces-enums-and-records/README.md) | Define contracts between classes, sort anything with `Comparable` and `Comparator`, and model fixed sets of values |
 | 13 | [Exceptions & Debugging](13-exceptions-and-debugging/README.md) | Handle bad input gracefully, create your own exceptions, and find bugs with the VS Code debugger |
 | 14 | [Files & Data](14-files-and-data/README.md) | Make programs remember things using text and CSV files |
+| 14b | [Databases with SQLite & JDBC](14b-databases-with-sqlite-and-jdbc/README.md) *(optional)* | Store data in a real database, query it with SQL, and keep it safe from SQL injection |
 | 15 | [Generics, Collections & Lambdas](15-generics-collections-and-lambdas/README.md) | Write type-safe reusable code, choose the right collection, and transform data with streams |
 | 16 | [Recursion & Algorithms](16-recursion-and-algorithms/README.md) | Write methods that call themselves, and compare searching and sorting algorithms by speed |
 | 17 | [Packages, Maven & JUnit Testing](17-packages-maven-and-junit/README.md) | Organise code into packages, build it with Maven, and prove it works with automated tests |
-| 18 | [GUIs with Swing](18-guis-with-swing/README.md) | Build windowed, event-driven programs with buttons, text fields, menus and drawing |
+| 18 | [GUIs with JavaFX](18-guis-with-javafx/README.md) | Build windowed, event-driven programs with forms, tables, charts and animation |
 | 19 | [Capstone 2](19-capstone-project-2/README.md) | Combine every Part 2 idea into one tested, persistent, track-based application |
+
+### Appendix
+
+| | Module | You will be able to... |
+|---|--------|------------------------|
+| A | [GUIs with Swing](appendix-a-guis-with-swing/README.md) *(optional)* | Build windows with Swing, the toolkit built into the JDK, and understand every line of Module 1's drawing programs |
 
 ## Ground rules for how we'll work
 

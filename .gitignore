@@ -10,6 +10,8 @@ target/
 # Files your programs create while you test them
 # (course data files live in data/ folders and are NOT ignored)
 *.log
+*.db
+*.db-journal
 saves/
 output/
 

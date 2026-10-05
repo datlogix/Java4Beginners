@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The layout of Example 13's window. Scene Builder can open and edit this file visually. -->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.makerspace.fx.TemperatureController"
+      spacing="12" styleClass="card">
+    <padding><Insets top="16" right="16" bottom="16" left="16"/></padding>
+    <Label text="Temperature converter" styleClass="title"/>
+    <HBox spacing="8">
+        <TextField fx:id="celsius" promptText="degrees C" prefColumnCount="8" onAction="#convert"/>
+        <Button text="Convert" onAction="#convert" defaultButton="true"/>
+    </HBox>
+    <Label fx:id="result" text=" "/>
+</VBox>
