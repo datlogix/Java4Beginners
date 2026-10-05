@@ -45,7 +45,9 @@ cd generic_starter              # or ee_starter, or biomedical_starter
 - store the data in **SQLite** instead of a CSV file, if you did the
   optional [Module 14b](../../14b-databases-with-sqlite-and-jdbc/README.md).
   Add the `org.xerial:sqlite-jdbc` dependency to `pom.xml`, and
-  `requires java.sql;` to `module-info.java`.
+  `requires java.sql;` to `module-info.java`. The
+  [worked example](../worked-example-student-records/README.md) shows
+  exactly how.
 
 ## Track A: Generic, Study Planner
 

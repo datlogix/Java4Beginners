@@ -329,7 +329,9 @@ The menu code never sees a `Connection` or a `ResultSet`: it just calls
 [`examples/Ex09Repository.java`](examples/Ex09Repository.java), a
 complete contacts manager. The rest of the program never sees any SQL,
 so the storage could change without touching it. That's how Capstone 2
-teams can swap their JSON storage for a database.
+teams can swap their JSON storage for a database. Module 18's
+[worked example](../18-guis-with-javafx/worked-example-student-records/README.md)
+puts a repository like this behind a JavaFX window, in a Maven project.
 
 ## Common beginner mistakes
 

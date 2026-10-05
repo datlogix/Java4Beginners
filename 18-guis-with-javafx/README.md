@@ -439,6 +439,24 @@ heartRate.getData().add(new XYChart.Data<>(1, 72));     // appears straight away
 
 See [`Ex14Charts.java`](examples/src/main/java/com/makerspace/fx/Ex14Charts.java).
 
+## Putting it together: a window onto a database
+
+[`worked-example-student-records`](worked-example-student-records/README.md)
+is a complete application that combines this module with Module 14b and
+Module 17: a JavaFX window (a table, a form, a live search and a chart)
+onto an **SQLite database**, built and tested with **Maven**. Its
+`pom.xml` has three dependencies (JavaFX, the SQLite driver, JUnit), its
+`module-info.java` adds `requires java.sql;`, and its code is split into
+a model, a repository holding all the SQL, and a view with no SQL at
+all. Its README walks through every part, shows how to run it with the
+JavaFX SDK instead of Maven, and lists the errors you're likely to meet.
+
+```bash
+cd worked-example-student-records
+./mvnw javafx:run
+./mvnw test
+```
+
 ## Common beginner mistakes
 
 - **"JavaFX runtime components are missing."** Run with
@@ -472,10 +490,12 @@ See [`Ex14Charts.java`](examples/src/main/java/com/makerspace/fx/Ex14Charts.java
    unit converter, `./mvnw javafx:run`) and Exercise 2 (a calculator
    whose model you make pass `./mvnw test` first, then
    `./mvnw javafx:run -Dmain=Exercise2`).
-3. Build the [module project](project/README.md) in the track of your
+3. Run the [worked example](worked-example-student-records/README.md),
+   and try one of its "Make it yours" changes.
+4. Build the [module project](project/README.md) in the track of your
    choice: a study planner, a resistor colour code calculator, or a
    vitals dashboard.
-4. Commit and push your work (without any `target` folders):
+5. Commit and push your work (without any `target` folders):
 
    ```bash
    git add .
